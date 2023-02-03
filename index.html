@@ -6,27 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- ----------------------------style------------------------ -->
     <style>
-        .div {
+        #div {
             width: 100%;
+            max-width: 400px;
+            height: 400px;
             margin: 2rem auto;
             display: flex;
+            gap: 5rem;
             justify-content: center;
             align-items: center;
+            background-color: bisque;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: 400px;
+        }
+
+        #img {
+
+            width: 100%;
+            max-width: 400px;
+            height: 400px;
+        }
+
+        #none {
+            display: none;
         }
     </style>
 </head>
 
 <body>
-    <div class="div">
+    <div id="div">
+        <!-- ------------------------------
+            youtube video
+             --------------------------- -->
 
-        <iframe id="youtube" src="https://www.youtube.com/embed/jhq3ZOhgQL8?&fs=0&color=white&controls=0&disablekb=1"
-            width="660" height="415" title="SportSim Runner - Digital Game for Events or Online Campaigns"
-            frameborder="0">
+        <iframe src="https://www.youtube.com/embed/jhq3ZOhgQL8?&fs=0&color=white&controls=0&disablekb=1" width="400"
+            height="400" title="SportSim Runner - Digital Game for Events or Online Campaigns" frameborder="0">
         </iframe>
+        <!-- ------------------------------
+            -------image------
+            ----------------------- -->
+
+        <img src="./image/image.png" alt="">
 
     </div>
 
+    <!-- -----------------------
+        -----script --------
+        ------------------------  -->
     <script src="preview.js"></script>
 </body>
 
