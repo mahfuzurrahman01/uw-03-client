@@ -8,58 +8,44 @@
     <title>Document</title>
 
     <!-- ----------------------------style------------------------ -->
-    <style>
-        #div {
-            width: 100%;
-            max-width: 400px;
-            height: 400px;
-            margin: 2rem auto;
-            display: flex;
-            gap: 5rem;
-            justify-content: center;
-            align-items: center;
-            background-color: bisque;
-        }
-
-        img {
-            width: 100%;
-            max-width: 400px;
-            height: 400px;
-        }
-
-        #img {
-
-            width: 100%;
-            max-width: 400px;
-            height: 400px;
-        }
-
-        #none {
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="div">
-        <!-- ------------------------------
-            youtube video
-             --------------------------- -->
 
-        <iframe src="https://www.youtube.com/embed/jhq3ZOhgQL8?&fs=0&color=white&controls=0&disablekb=1" width="400"
-            height="400" title="SportSim Runner - Digital Game for Events or Online Campaigns" frameborder="0">
-        </iframe>
-        <!-- ------------------------------
-            -------image------
-            ----------------------- -->
 
-        <img src="./image/image.png" alt="">
+    <div class="divGroup">
+        <!-- ================================ First Image and video =============================== -->
 
+        <div id="div">
+            <iframe src="https://www.youtube.com/embed/jhq3ZOhgQL8?&fs=0&color=white&controls=0&disablekb=1" width="400"
+                height="400" title="SportSim Runner - Digital Game for Events or Online Campaigns" frameborder="0">
+            </iframe>
+            <img src="./image/image.png" alt="image1">
+        </div>
+
+        <!-- ================================ Second Image and video =============================== -->
+
+        <div id="div1">
+
+            <iframe src="https://www.youtube.com/embed/qJAOC6tUxck?&fs=0&color=white&controls=0&disablekb=1" width="400"
+                height="400" title="SkyTrak Features" frameborder="0"></iframe>
+
+            <img src="./image/image3.png" alt="image2">
+        </div>
+
+        <!-- ================================ Third Image and video =============================== -->
+
+        <div id="div2">
+            <iframe src="https://www.youtube.com/embed/ayqR4KiwgaE?&fs=0&color=white&controls=0&disablekb=1" width="400"
+                height="400" title="Australian football team" frameborder="0">
+            </iframe>
+            <img src="./image/image2.png" alt="image3">
+        </div>
     </div>
 
-    <!-- -----------------------
-        -----script --------
-        ------------------------  -->
+
+    <!-- ===============script================== -->
     <script src="preview.js"></script>
 </body>
 

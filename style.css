@@ -1,0 +1,46 @@
+.divGroup {
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 3rem;
+      margin-top: 5rem;
+         
+}
+
+#div {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    
+}
+
+#div1 {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+   
+}
+
+#div2 {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+#img {
+
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+#none {
+    display: none;
+}
